@@ -35,10 +35,10 @@
 
 **Sequence of events**:
 1. Create changes
-  -- Working directory → Staging area (with _git add_)
+  1. Working directory → Staging area (with _git add_)
 1. Stage files with changes
 1. Commit changes
-  -- Staging area → Git repository (with _git commit_)
+  1. Staging area → Git repository (with _git commit_)
 
 ### Branching
 - `git branch`,
