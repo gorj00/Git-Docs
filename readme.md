@@ -45,3 +45,9 @@
   - _master_ is created automatically after repository initialization,
 - `git checkout -b <branch-name>`,
   - creates new branch with a <branch-name> name
+- `git checkout <branch-name>`,
+  - switch to the <branch-name> branch
+
+### Merging 
+To merge, we must be in a **master branch**.
+- `git merge <branch-name>`
