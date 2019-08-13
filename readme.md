@@ -7,7 +7,7 @@
 ### Repository
 - `git init`, 
   - run this command after navigaing to your folder, 
-  - this will **initialize** a _git repository_
+  - this will **initialize** a _git repository_ under **master** branch
 - `git status`,
   - status of the current git repository (files tracked and untracked, commits and so on)
 
@@ -29,7 +29,7 @@
   - allows to **look** at previous state of the project under this particular commit and create a **detached HEAD**,
   - **to return back**: `git checkout <branch-name>` _(usually master)_
 - `git reset --hard <commit-hash>`,
-  - projects resets to a commit (a state) in the past, this commit becomes the HEAD of the branch, all changes and commits (project states) after this newly set HEAD are permanently lost,
+  - projects resets to a commit (a state) in the past, this commit becomes the HEAD of the branch, all changes and commits (project states) after this newly set HEAD are permanently lost
 - `git checkout -- .`,
   - discard all **unstaged** and **uncomitted** changes (revert state of the project)
 
@@ -42,12 +42,16 @@
 
 ### Branching
 - `git branch`,
-  - _master_ is created automatically after repository initialization,
+  - lists the names of all branches and highlights the current branch
 - `git checkout -b <branch-name>`,
   - creates new branch with a <branch-name> name
 - `git checkout <branch-name>`,
   - switch to the <branch-name> branch
+- `git branch -D <branch-name>`,
+  - deletes branch from project permanently
 
 ### Merging 
 To merge, we must be in a **master branch**.
 - `git merge <branch-name>`
+
+Merging can lead to conflicts, when resolved, commit the resolved change.
