@@ -69,6 +69,10 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
   - signing up to GitHub follows
 - `git branch -r`,
   - lists remote branch in remote repository (usually _origin/remote_)
+- `git push`,
+  - pushes commits to remote repository
 
 ### Cloning
-Cloning serves to another user (or computer) to join in on writing the code.
+Cloning serves to another user (or computer) to join in on writing the code from another local repository.
+
+- `git clone <https-.git-address>`
