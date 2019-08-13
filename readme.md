@@ -21,7 +21,8 @@
 - `git log`,
   - information about commits (hashes, branch, head and so on)
 - `git checkout <commit-hash>`,
-  - allows to **look** at previous state of the project under this particular commit
+  - allows to **look** at previous state of the project under this particular commit and create a **detached HEAD**,
+  - **to return back**: `git checkout <branch-name>` _(usually master)_
 
 **Sequence of events**:
 1. Create changes
@@ -33,4 +34,3 @@
 ### Branching
 - `git branch`,
   - _master_ is created automatically,
-
