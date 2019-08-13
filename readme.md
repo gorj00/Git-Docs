@@ -35,10 +35,10 @@
 
 **Sequence of events**:
 1. Create changes
-  - Working directory → Staging area (with _git add_)
+  -- Working directory → Staging area (with _git add_)
 1. Stage files with changes
 1. Commit changes
-  - Staging area → Git repository (with _git commit_)
+  -- Staging area → Git repository (with _git commit_)
 
 ### Branching
 - `git branch`,
@@ -61,7 +61,9 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
 - In GitHub, create a new repository,
 - copy HTTPS .git address of the repository and insert it into the following command to **connect** the local and remote repository: 
 - `git remote add origin <https-.git-address>`,
-  - _origin_ is, by default, the name of the remote repository,
-- `git remote-v`,
-  - lists the fetch and pull .git adress of _origin_ remote repository,
-- ``
+  - _origin_ is, by default, the name of the remote repository
+- `git remote -v`,
+  - lists the fetch and pull .git adress of _origin_ remote repository
+- `git push -u origin master`,
+  - pushes local branch to remote origin repository, master branch,
+  - signing up to GitHub follows
