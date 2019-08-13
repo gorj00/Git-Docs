@@ -35,10 +35,10 @@
 
 **Sequence of events**:
 1. Create changes
-  1. Working directory → Staging area (with _git add_)
+    1. Working directory → Staging area (with _git add_)
 1. Stage files with changes
 1. Commit changes
-  1. Staging area → Git repository (with _git commit_)
+    1. Staging area → Git repository (with _git commit_)
 
 ### Branching
 - `git branch`,
@@ -67,3 +67,8 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
 - `git push -u origin master`,
   - pushes local branch to remote origin repository, master branch,
   - signing up to GitHub follows
+- `git branch -r`,
+  - lists remote branch in remote repository (usually _origin/remote_)
+
+### Cloning
+Cloning serves to another user (or computer) to join in on writing the code.
