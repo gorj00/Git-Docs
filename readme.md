@@ -55,3 +55,13 @@ To merge, we must be in a **master branch**.
 - `git merge <branch-name>`
 
 Merging can lead to conflicts, when resolved, commit the resolved change.
+
+## ## GitHub - Remote Git Repository 
+### Repositories Connection
+- In GitHub, create a new repository,
+- copy HTTPS .git address of the repository and insert it into the following command to **connect** the local and remote repository: 
+- `git remote add origin <https-.git-address>`,
+  - _origin_ is, by default, the name of the remote repository,
+- `git remote-v`,
+  - lists the fetch and pull .git adress of _origin_ remote repository,
+- ``
