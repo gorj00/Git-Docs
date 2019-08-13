@@ -42,4 +42,6 @@
 
 ### Branching
 - `git branch`,
-  - _master_ is created automatically,
+  - _master_ is created automatically after repository initialization,
+- `git checkout -b <branch-name>`,
+  - creates new branch with a <branch-name> name
