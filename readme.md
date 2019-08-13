@@ -75,4 +75,9 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
 ### Cloning
 Cloning serves to another user (or computer) to join in on writing the code from another local repository.
 
-- `git clone <https-.git-address>`
+- `git clone <https-.git-address>`,
+  - creates a new local repository already synced with the remote repository
+- `git pull`,
+  - combination of commands: 
+    - `git fetch`, fetches all of the branches of remote repository (in this context),
+    - `git merge`, 
