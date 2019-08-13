@@ -80,7 +80,7 @@ Cloning serves to another user (or computer) to join in on writing the code from
 - `git pull`,
   - combination of commands: 
     - `git fetch`, fetches all of the branches of remote repository to the remote-tracking branch,
-    - `git merge`, merges local master with fetched remote origin/master
+    - `git merge origin/master`, merges remote-tracking branch with local repository
 
 **Repositories**: 
 1. Remote repository
