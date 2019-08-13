@@ -72,12 +72,20 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
 - `git push`,
   - pushes commits to remote repository
 
-### Cloning
+### Cloning & Syncing 
 Cloning serves to another user (or computer) to join in on writing the code from another local repository.
 
 - `git clone <https-.git-address>`,
   - creates a new local repository already synced with the remote repository
 - `git pull`,
   - combination of commands: 
-    - `git fetch`, fetches all of the branches of remote repository (in this context),
-    - `git merge`, 
+    - `git fetch`, fetches all of the branches of remote repository to the remote-tracking branch,
+    - `git merge`, merges local master with fetched remote origin/master
+
+**Repositories**: 
+1. Remote repository
+    1. with _git fetch_ (Remote → Remote-tracking)
+1. In-between remote-tracking branches, connectors
+1. Local repository
+    1. with _git merge_ (Remote-tracking → Local)
+
