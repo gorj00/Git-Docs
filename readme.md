@@ -71,6 +71,8 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
   - lists remote branch in remote repository (usually _origin/remote_)
 - `git push`,
   - pushes commits to remote repository
+- `git push --set-upstream origin <branch-name>`,
+  - creates new upstream remote branch and pushes newly created local branch onto it
 
 ### Cloning & Syncing 
 Cloning serves to another user (or computer) to join in on writing the code from another local repository.
