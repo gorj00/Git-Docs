@@ -69,6 +69,8 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
   - signing up to GitHub follows
 - `git branch -r`,
   - lists remote branch in remote repository (usually _origin/remote_)
+- `git branch -a`,
+  - lists all branches - local and remote
 - `git push`,
   - pushes commits to remote repository
 - `git push --set-upstream origin <branch-name>`,
