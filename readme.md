@@ -77,7 +77,7 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
   - creates new upstream remote branch and pushes newly created local branch onto it
 - `git push <remote-name> :<branch-name>`,
   - deletes remote branch,
-  - _<remote-name>_ is usually _origin_
+  - _remote-name_ is usually _origin_
 
 ### Cloning & Syncing 
 Cloning serves to another user (or computer) to join in on writing the code from another local repository.
