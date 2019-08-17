@@ -24,7 +24,8 @@
   - commit changes and name this commit with a <message> name
   - **the lastest** commit is the **HEAD** of the branch
 - `git log`,
-  - information about commits (hashes, branch, head and so on)
+  - information about commits (hashes, branch, head and so on),
+  - opens an editor, press `q` to quit it
 - `git checkout <commit-hash>`,
   - allows to **look** at previous state of the project under this particular commit and create a **detached HEAD**,
   - **to return back**: `git checkout <branch-name>` _(usually master)_
