@@ -52,8 +52,9 @@
   - deletes branch from project permanently
 
 ### Merging 
-To merge, we must be in a **master branch**.
-- `git merge <branch-name>`
+To merge, we must be in a branch that will contain the merged two branches (usually master).
+- `git checkout <branch-name-1>`, to switch to the branch wi want to make a merge upon,
+- `git merge <branch-name-2>`, make a merge of branch-name-2 with branch-name-1
 
 Merging can lead to conflicts, when resolved, commit the resolved change.
 
