@@ -11,6 +11,14 @@
 - `git status`,
   - status of the current git repository (files tracked and untracked, commits and so on)
 
+### Identity
+- **Globally**:
+  - `git config --global user.name "John Doe"`,
+  - `git config --global user.email johndoe@example.com`
+- **Locally - per a particular git repository**: 
+  - `git config user.name "John Doe"`,
+  - `git config user.email johndoe@example.com`
+
 ### Staging
 - `git add <file-name>`,
   - add only <file-name> file from the folder to the tracking logic of git, 
@@ -53,7 +61,7 @@
 
 ### Merging 
 To merge, we must be in a branch that will contain the merged two branches (usually master).
-- `git checkout <branch-name-1>`, to switch to the branch wi want to make a merge upon,
+- `git checkout <branch-name-1>`, to switch to the branch we want to make a merge upon,
 - `git merge <branch-name-2>`, make a merge of branch-name-2 with branch-name-1
 
 Merging can lead to conflicts, when resolved, commit the resolved change.
@@ -74,9 +82,13 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
 - `git branch -a`,
   - lists all branches - local and remote
 - `git push`,
-  - pushes commits to remote repository
+  - pushes commits to remote repository,
+- `git push origin HEAD`,
+  - push only current branch,
 - `git push --set-upstream origin <branch-name>`,
   - creates new upstream remote branch and pushes newly created local branch onto it
+- `git checkout --track origin/<remote-branch-name>`,
+  - after `git pull`, if new remote branch is created, this commands creates the branch locally and sets up an remote tracking branch,
 - `git push <remote-name> :<branch-name>`,
   - deletes remote branch,
   - _remote-name_ is usually _origin_
