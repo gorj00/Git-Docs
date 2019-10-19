@@ -18,7 +18,7 @@
 1. **Go to dev branch**: Checkout to dev branch with `git checkout dev`
 1. **Update dev branch**: Update the dev branch locally with `git pull`
 1. **Create new branch locally**: Create new branch from dev branch with `git checkout -b feature/sign-in-page` (example)
-1. **Create new branch remotely**: Create remote branch on GitHub with `pit push -u origin feature/sign-in-page` (example)
+1. **Create new branch remotely**: Create remote branch on GitHub with `git push -u origin feature/sign-in-page` (example)
 
 ## ... or continue working on already EXISTING remote branch:
 1. **Open your project**: Open the folder with Sportify project in your editor.
