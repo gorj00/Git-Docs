@@ -25,8 +25,11 @@
 1. **Go to dev branch**: Checkout to dev branch with `git checkout dev`
 1. **Update dev branch**: Update the dev branch locally with `git pull`
 1. **Create connection**: Create local branch and connect it to the remote branch with `git checkout --track origin/feature/sign-in-page` (example)
-    - for example, when you continue somebody else's work, 
-    - or you continue your work on another computer and so on
+
+**When to use this approach**:
+  - for example, when you continue somebody else's work, 
+  - or you continue your work on another computer and so on
+  
 ## ## Create new pull request:
 ### Pull requests rules:  
 - Every pull request to dev branch must have two reviewers other than yourself, one of them must be Jan Gorol. 
