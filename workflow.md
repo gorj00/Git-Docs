@@ -32,17 +32,17 @@
 
 ## ## Create new pull request:
 ### Pull requests rules:  
-- Every pull request to dev branch must have two reviewers other than yourself, one of them must be Jan Gorol. 
-- Every pull request to master branch must have Dominik Šnýdr as a reviewer.
-- Every pull request's labels must match labels in trello.
-- Every pull request's milestone must match the current sprint.
+- Every pull request to dev branch must have two reviewers other than yourself, one of them **must be** Jan Gorol. 
+- Every pull request to master branch **must have** Dominik Šnýdr as a reviewer.
+- Every pull request's labels must match **labels in trello**.
+- Every pull request's milestone must **match the current sprint**.
 
 ### Steps:
 1. Make sure everything is working the way it is supposed to, go through your code and check it.
 1. Check, whether your branch would be in conflict with dev branch:
-    - go to dev branch with `git checkout dev`, merge updates with `git pull`
-    - go back to your feature or bugfix branch with `git checkout feature/your-branch-name`, 
-    - merge dev branch into your feature or bugfix branch with `git merge dev`
-    - resolve possible conflicts
-1. Go to [our pull request page](https://github.com/jaroslavVeverka/Sportify_9/pulls), create new pull request
+    1. go to dev branch with `git checkout dev`, merge updates with `git pull`
+    1. go back to your feature or bugfix branch with `git checkout feature/your-branch-name`, 
+    1. merge dev branch into your feature or bugfix branch with `git merge dev`
+    1. resolve possible conflicts and make a commit
+1. Go to [our pull request page](https://github.com/jaroslavVeverka/Sportify_9/pulls), **create new pull request**
 1. TODO: !!!! FINISH 
