@@ -21,8 +21,8 @@
 1. **Create new branch remotely**: Create remote branch on GitHub with `pit push -u origin feature/sign-in-page` (example)
 
 ## ... or continue working on already EXISTING remote branch:
-    - for example, when you continue somebody else's work, 
-    - or you continue your work on another computer and so on
+  - for example, when you continue somebody else's work, 
+  - or you continue your work on another computer and so on
 
 1. **Open your project**: Open the folder with Sportify project in your editor.
 1. **Go to dev branch**: Checkout to dev branch with `git checkout dev`
