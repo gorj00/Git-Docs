@@ -27,7 +27,8 @@
 1. **Create connection**: Create local branch and connect it to the remote branch with `git checkout --track origin/feature/sign-in-page` (example)
 
 **When to use this approach**:
-  - for example, when you continue somebody else's work, 
+  - for example, when you created a new remote branch first (in GitHub account),
+  - when you continue somebody else's published (on GitHub) work, 
   - or you continue your work on another computer and so on
 
 ## ## Create new pull request:
