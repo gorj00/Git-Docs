@@ -27,6 +27,7 @@
 - Every pull request's labels must match labels in trello.
 - Every pull request's milestone must match the current sprint.
 
+### Steps:
 1. Make sure everything is working the way it is supposed to, go through your code and check it.
 1. Check, whether your branch would be in conflict with dev branch:
     - go to dev branch with `git checkout dev`, merge updates with `git pull`
