@@ -4,11 +4,11 @@
 - Never make commits to master or dev branch (development related).
 
 ## ## Workflow:
-1. Create branches ONLY from dev branch, never master or any other!
+1. Create branches **ONLY** from dev branch, **never** master or any other!
 1. All branches names must be **lower case**, words separated by a **dash**, example `bugfix/password-input-not-validating`.
 1. All branches must start with either `feature` or `bugfix`, followed by a slash `/` and the name of the branch: 
-    - feature/name-of-branch
-    - bugfix/name-of-branch
+    - **feature/name-of-branch**
+    - **bugfix/name-of-branch**
 4. After work is done on a feature or bugfix branch, it is better that all possible conflicts are resolved before merging with **dev** branch, therefore:
     - After you are **done**, merge dev branch with your feature or bugfix branch locally, resolve conflicts and commit.
     - Only after that, you may create a pull request to a dev branch, see **CREATE NEW PULL REQUEST** section for more information.
@@ -21,14 +21,12 @@
 1. **Create new branch remotely**: Create remote branch on GitHub with `pit push -u origin feature/sign-in-page` (example)
 
 ## ... or continue working on already EXISTING remote branch:
-  - for example, when you continue somebody else's work, 
-  - or you continue your work on another computer and so on
-
 1. **Open your project**: Open the folder with Sportify project in your editor.
 1. **Go to dev branch**: Checkout to dev branch with `git checkout dev`
 1. **Update dev branch**: Update the dev branch locally with `git pull`
 1. **Create connection**: Create local branch and connect it to the remote branch with `git checkout --track origin/feature/sign-in-page` (example)
-
+    - for example, when you continue somebody else's work, 
+    - or you continue your work on another computer and so on
 ## ## Create new pull request:
 ### Pull requests rules:  
 - Every pull request to dev branch must have two reviewers other than yourself, one of them must be Jan Gorol. 
