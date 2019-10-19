@@ -14,20 +14,20 @@
     - Only after that, you may create a pull request to a dev branch, see **CREATE NEW PULL REQUEST** section for more information.
 
 ## ## Create NEW feature or bugfix remote branch...
-1. **OPEN YOUR PROJECT**: Open the folder with Sportify project in your editor.
-1. **GO TO DEV BRANCH**: Checkout to dev branch with `git checkout dev`
-1. **UPDATE DEV BRANCH**: Update the dev branch locally with `git pull`
-1. **CREATE NEW BRANCH LOCALLY**: Create new branch from dev branch with `git checkout -b feature/sign-in-page` (example)
-1. **CREATE NEW BRANCH REMOTELY**: Create remote branch on GitHub with `pit push -u origin feature/sign-in-page` (example)
+1. **Open your project**: Open the folder with Sportify project in your editor.
+1. **Go to dev branch**: Checkout to dev branch with `git checkout dev`
+1. **Update dev branch**: Update the dev branch locally with `git pull`
+1. **Create new branch locally**: Create new branch from dev branch with `git checkout -b feature/sign-in-page` (example)
+1. **Create new branch remotely**: Create remote branch on GitHub with `pit push -u origin feature/sign-in-page` (example)
 
-## ## ... or continue working on already EXISTING remote branch:
+## ... or continue working on already EXISTING remote branch:
     - for example, when you continue somebody else's work, 
     - or you continue your work on another computer and so on
 
-1. **OPEN YOUR PROJECT**: Open the folder with Sportify project in your editor.
-1. **GO TO DEV BRANCH**: Checkout to dev branch with `git checkout dev`
-1. **UPDATE DEV BRANCH**: Update the dev branch locally with `git pull`
-1. **CREATE CONNECTION**: Create local branch and connect it to the remote branch with `git checkout --track origin/feature/sign-in-page` (example)
+1. **Open your project**: Open the folder with Sportify project in your editor.
+1. **Go to dev branch**: Checkout to dev branch with `git checkout dev`
+1. **Update dev branch**: Update the dev branch locally with `git pull`
+1. **Create connection**: Create local branch and connect it to the remote branch with `git checkout --track origin/feature/sign-in-page` (example)
 
 ## ## Create new pull request:
 ### Pull requests rules:  
