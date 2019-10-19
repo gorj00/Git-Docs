@@ -1,4 +1,4 @@
-# # Development Workflow
+# # Development Workflow Guidelines
 
 **RULES**: 
 - Never make commits to master or dev branch (development related).
@@ -29,7 +29,7 @@
 **When to use this approach**:
   - for example, when you continue somebody else's work, 
   - or you continue your work on another computer and so on
-  
+
 ## ## Create new pull request:
 ### Pull requests rules:  
 - Every pull request to dev branch must have two reviewers other than yourself, one of them must be Jan Gorol. 
