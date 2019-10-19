@@ -46,4 +46,5 @@
     1. merge dev branch into your feature or bugfix branch with `git merge dev`
     1. resolve possible conflicts and make a commit
 1. Go to [our pull request page](https://github.com/jaroslavVeverka/Sportify_9/pulls), **create new pull request**
+1. Add reviewers, labels, and milestone (according to the _pull requests rules_ stated above)
 1. TODO: !!!! FINISH 
