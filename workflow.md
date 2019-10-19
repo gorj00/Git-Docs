@@ -22,7 +22,7 @@
 
 ## ## ... or continue working on already EXISTING remote branch:
     - for example, when you continue somebody else's work, 
-    - or you continue your work on another computer and so on... 
+    - or you continue your work on another computer and so on
 
 1. **OPEN YOUR PROJECT**: Open the folder with Sportify project in your editor.
 1. **GO TO DEV BRANCH**: Checkout to dev branch with `git checkout dev`
