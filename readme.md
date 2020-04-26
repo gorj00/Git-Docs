@@ -79,6 +79,8 @@ Merging can lead to conflicts, when resolved, commit the resolved change.
 - `git push -u origin master`,
   - pushes local branch to remote origin repository, master branch,
   - signing up to GitHub follows
+- `git push --all -u`,
+  - pushes all branches and set up tracking branches,
 - `git branch -r`,
   - lists remote branch in remote repository (usually _origin/remote_)
 - `git branch -a`,
